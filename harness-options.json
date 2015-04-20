@@ -1,0 +1,303 @@
+{
+ "check_memory": false, 
+ "enable_e10s": false, 
+ "is-sdk-bundled": true, 
+ "jetpackID": "6d504ebFhRf8dHkt1e150ac4k91757f@korpuslex", 
+ "loader": "addon-sdk/lib/sdk/loader/cuddlefish.js", 
+ "main": "main", 
+ "mainPath": "korpus/main", 
+ "manifest": {
+  "korpus/main": {
+   "docsSHA256": null, 
+   "jsSHA256": "e40ccecda7ada40c48717427989ea744ed6df55f999363346a08fcb0e5fb9627", 
+   "moduleName": "main", 
+   "packageName": "korpus", 
+   "requirements": {
+    "chrome": "chrome", 
+    "sdk/request": "sdk/request", 
+    "sdk/context-menu": "sdk/context-menu", 
+    "sdk/hotkeys": "sdk/hotkeys", 
+    "sdk/l10n": "sdk/l10n", 
+    "sdk/panel": "sdk/panel", 
+    "sdk/selection": "sdk/selection", 
+    "sdk/self": "sdk/self", 
+    "sdk/simple-prefs": "sdk/simple-prefs",
+    "sdk/tabs": "sdk/tabs",
+    "sdk/ui/button/toggle": "sdk/ui/button/toggle",
+    "sdk/page-mod":"sdk/page-mod"
+   }, 
+   "sectionName": "lib"
+  }
+ }, 
+ "metadata": {
+  "addon-sdk": {
+   "description": "Add-on development made easy.", 
+   "keywords": [
+    "javascript", 
+    "engine", 
+    "addon", 
+    "extension", 
+    "xulrunner", 
+    "firefox", 
+    "browser"
+   ], 
+   "license": "MPL 2.0", 
+   "name": "addon-sdk"
+  }, 
+  "korpus": {
+   "author": "Korpus", 
+   "description": "Corpus of bilingual phrase pair, definition, synonym, etc.", 
+   "main": "main", 
+   "name": "Korpus Lexical", 
+   "version": "1.8.0"
+  }
+ }, 
+ "name": "korpus", 
+ "preferences": [
+ {
+	"description":"Scrollbar X",
+	"name":"panel.width",
+	"type":"integer",
+	"value":640,
+	"title":"Width"
+},
+{
+	"description":"Scrollbar Y",
+	"name":"panel.height",
+	"type":"integer",
+	"value":400,
+	"title":"height"
+},
+{
+	"description":"",
+	"name":"lang.langpair",
+	"type":"string",
+	"value":"French-English",
+	"title":""
+},
+{
+	"description":"",
+	"name":"lang.linguee",
+	"type":"string",
+	"value":"francais-anglais",
+	"title":""
+},
+{
+	"description":"",
+	"name":"lang.thefreedictionary",
+	"type":"string",
+	"value":"en",
+	"title":""
+},
+{
+	"description":"",
+	"name":"lang.babla",
+	"type":"string",
+	"value":"francais-allemand",
+	"title":""
+},
+{
+	"description":"",
+	"name":"lang.wordreference",
+	"type":"string",
+	"value":"enfr",
+	"title":""
+},
+{
+	"description":"",
+	"name":"lang.iate",
+	"type":"string",
+	"value":"s",
+	"title":""
+},
+{
+	"description":"",
+	"name":"lang.pons",
+	"type":"string",
+	"value":"defr",
+	"title":""
+},
+{
+	"description":"",
+	"name":"lang.woxikon",
+	"type":"string",
+	"value":"deutsch-franzoesisch",
+	"title":""},
+{
+	"description":"",
+	"name":"lang.beolingus",
+	"type":"string",
+	"value":"deen",
+	"title":""
+},
+{
+	"description":"",
+	"name":"lang.linguatec",
+	"type":"string",
+	"value":"G",
+	"title":""
+},
+{
+	"description":"",
+	"name":"lang.urbandictionary",
+	"type":"string",
+	"value":"",
+	"title":""},
+{
+	"description":"",
+	"name":"lang.cnrtl",
+	"type":"string",
+	"value":"",
+	"title":""
+},
+{
+	"description":"",
+	"name":"lang.littre",
+	"type":"string",
+	"value":"",
+	"title":""
+},
+{
+	"description":"",
+	"name":"lang.dvlf",
+	"type":"string",
+	"value":"",
+	"title":""
+},
+{
+	"description":"",
+	"name":"lang.duden",
+	"type":"string",
+	"value":"",
+	"title":""},
+{
+	"description":"",
+	"name":"lang.wunileipzig",
+	"type":"string",
+	"value":"",
+	"title":""
+},
+{
+	"description":"",
+	"name":"lang.wunileipzigcorpora",
+	"type":"string",
+	"value":"",
+	"title":""
+},
+{
+	"description":"",
+	"name":"lang.dwds",
+	"type":"string",
+	"value":"",
+	"title":""
+},
+{
+	"description":"",
+	"name":"lang.dictcc",
+	"type":"string",
+	"value":"deen",
+	"title":""
+},
+{
+	"description":"",
+	"name":"lang.dictleo",
+	"type":"string",
+	"value":"defr",
+	"title":""
+},
+{
+	"description":"",
+	"name":"lang.glosbe",
+	"type":"string",
+	"value":"",
+	"title":""
+},
+{
+	"description":"",
+	"name":"lang.memidex",
+	"type":"string",
+	"value":"",
+	"title":""
+},
+{
+	"description":"",
+	"name":"lang.dictionarycom",
+	"type":"string",
+	"value":"english-french",
+	"title":""
+},
+{
+	"description":"",
+	"name":"lang.collins",
+	"type":"string",
+	"value":"german-english",
+	"title":""
+},
+{
+	"description":"",
+	"name":"lang.merriam-webster",
+	"type":"string",
+	"value":"",
+	"title":""
+},
+{
+	"description":"",
+	"name":"lang.almaany",
+	"type":"string",
+	"value":"french",
+	"title":""
+},
+{
+	"description":"",
+	"name":"lang.ispeech",
+	"type":"string",
+	"value":"",
+	"title":""
+},
+{
+	"description":"",
+	"name":"lang.googletranslate",
+	"type":"string",
+	"value":"",
+	"title":""
+},
+{
+	"description":"",
+	"name":"dictionnaire",
+	"type":"string",
+	"value":"wordreference",
+	"title":""
+},
+{
+	"description":"",
+	"name":"indexdict",
+	"type":"string",
+	"value":"",
+	"title":""
+},
+{
+	"description":"",
+	"name":"hotkey.active",
+	"type":"boolean",
+	"value":true,
+	"title":""
+},
+{
+	"description":"Default 'F9' or any existing combination {Fx, shift, alt, meta, control, accel} as in 'alt-shift-f'",
+	"name":"hotkey.searchselected",
+	"type":"string",
+	"value":"F9",
+	"title":"Key search selected"
+},
+{
+	"description":"Default 'F8' (same as the  'search selected word' key is not recommanded)",
+	"name":"hotkey.opensearch",
+	"type":"string",
+	"value":"F8",
+	"title":"Key open search"
+}
+ ], 
+ "sdkVersion": "1.17", 
+ "staticArgs": {}, 
+ "verbose": false
+}

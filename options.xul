@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<vbox xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+	<setting data-jetpack-id="6d504ebFhRf8dHkt1e150ac4k91757f@korpuslex" pref="extensions.6d504ebFhRf8dHkt1e150ac4k91757f@korpuslex.panel.height" pref-name="panel.height" title="Height" type="integer">Panel height</setting>
+	<setting data-jetpack-id="6d504ebFhRf8dHkt1e150ac4k91757f@korpuslex" pref="extensions.6d504ebFhRf8dHkt1e150ac4k91757f@korpuslex.panel.width" pref-name="panel.width" title="Width" type="integer">Panel width</setting>
+	<setting data-jetpack-id="6d504ebFhRf8dHkt1e150ac4k91757f@korpuslex" pref="extensions.6d504ebFhRf8dHkt1e150ac4k91757f@korpuslex.hotkey.searchselected" pref-name="hotkey.searchselected" title="Key search selected word" type="string">Default 'F9' or any existing combination {Fx, shift, alt, meta, control, accel} as in 'alt-shift-f'</setting>
+	<setting data-jetpack-id="6d504ebFhRf8dHkt1e150ac4k91757f@korpuslex" pref="extensions.6d504ebFhRf8dHkt1e150ac4k91757f@korpuslex.hotkey.opensearch" pref-name="hotkey.opensearch" title="Key open search" type="string">Default 'F8' (same as the  'search selected word' key is not recommended)</setting>
+</vbox>

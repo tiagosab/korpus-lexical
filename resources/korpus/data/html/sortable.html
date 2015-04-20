@@ -1,0 +1,29 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" type="text/css" href="css/sortable.css" />
+</head>
+<body id="page">
+    <div class="container">
+        <div id="inner-content-div">
+        <div id="titlek"><h2></h2></div>
+         <div id="dicolangpair">--</div>
+        <div class="ui-widget">
+                <input type="text" id="tags" name="langpair" size="19" placeholder="language pair">
+            </div>
+             <br>
+            <ol id="sortable"></ol>
+        </div>
+    </div>
+    <script id="dictionaries-template" type="text/x-handlebars-template">
+           {{#dictionary}}
+                <li id={{dict}} name={{dict}} >
+                    <span> {{content}}</span>
+                </li>
+           {{/dictionary}}
+        </script>
+    <script src="sortable.js"></script>
+</body>
+</html>
+
